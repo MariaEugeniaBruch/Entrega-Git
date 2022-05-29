@@ -82,6 +82,9 @@ a {
     padding-top: 100px;
 }
 
+
+/*Transiciones*/
+
 .redes1:hover{
     transform: scale(1.5,1.5);
     transition: 0,5s;
@@ -94,6 +97,8 @@ a {
     transform: scale(1.5,1.5);
     transition: 0,5s;
 }
+
+/*fin transiciones*/
 
 /*Fin footer*/
 
