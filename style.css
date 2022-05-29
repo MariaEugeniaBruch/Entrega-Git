@@ -80,12 +80,20 @@ a {
 }
 .redes {
     padding-top: 100px;
-
-  
-    
-
 }
 
+.redes1:hover{
+    transform: scale(1.5,1.5);
+    transition: 0,5s;
+}
+.redes2:hover{
+    transform: scale(1.5,1.5);
+    transition: 0,5s;
+}
+.redes3:hover{
+    transform: scale(1.5,1.5);
+    transition: 0,5s;
+}
 
 /*Fin footer*/
 
