@@ -3,7 +3,7 @@
 /* Color de fondo*/
 
 body {
-    background-color: rgb(199, 196, 196);
+    background-color: white;
 }
 
 /*Header*/
@@ -23,14 +23,10 @@ header {
     position: absolute; 
     top: 70px; 
     right: 20px
+    
 }
 
-a {
-    text-decoration: none;
-    font-size: 3rem;
-    font-family: 'Anton', sans-serif;
-    color: black;
-}
+
 
 
 .menu {
@@ -41,12 +37,15 @@ a {
 /*Fin header*/
 
 /*sección carrusel */
-
-.carrusel {
-    border: 2px solid black;
-    width: 100%;
-    margin: 10px
-}
+.carousel-edit {
+    height: 480px;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .carousel-edit {
+      height: auto;
+    }
+  }
 
 /*fin sección carrusel */
 
@@ -86,15 +85,15 @@ a {
 /*Transiciones*/
 
 .redes1:hover{
-    transform: scale(1.5,1.5);
+    transform: scale(1.1,1.1);
     transition: 0,5s;
 }
 .redes2:hover{
-    transform: scale(1.5,1.5);
+    transform: scale(1.1,1.1);
     transition: 0,5s;
 }
 .redes3:hover{
-    transform: scale(1.5,1.5);
+    transform: scale(1.1,1.1);
     transition: 0,5s;
 }
 
