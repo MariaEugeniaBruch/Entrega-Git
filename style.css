@@ -9,21 +9,21 @@ body {
 /*Header*/
 
 header {
-    background-color: white;
+    background-color: rgb(245, 243, 243);
     width: 100%;
-    margin: 10px
+    margin: 0px
 }
 
-.logo {
-   width: 15%;
-   
-}
+
+
+.imagenLogo {
+    height: 25%;
+    width: 25%; }
+
+        
 
 .bloque-menu {
-    position: absolute; 
-    top: 70px; 
-    right: 20px
-    
+    align-items: flex-end;
 }
 
 
@@ -56,8 +56,10 @@ header {
     height: 245px;
     margin-right: 30px;
     margin-left: 70px;
-}
 
+}
+    
+ 
 .video {
     width: 45%;
     height: 250px;      
@@ -106,6 +108,7 @@ header {
 
 .fixtureconteiner {
     border: 2px solid black;
+    width: 60%;
 }
 
 .tableconteiner {
@@ -113,14 +116,7 @@ header {
     justify-content: center;
     }
 
-.teamsh1 { 
-    
-    font-size: 3rem;
-    font-family: 'Anton', sans-serif;
-    color: black;
-    display: flex;
-    justify-content: center;
-}
+
 
 /* Fin Tablas fixture*/
 
@@ -138,6 +134,7 @@ header {
 
 .teamspictures {
 width:80%;
+margin-left: 10%;
 padding-left: 10%;
 padding-right: 10%;
 }
@@ -239,3 +236,189 @@ grid-row: 6 / 7;
 }
 
 /*fin Media */
+
+
+
+
+
+
+/*Media queries*/
+
+
+@media (max-width: 576px ) {
+   .header {
+       margin-bottom: 10px;
+   }
+   
+   .bloque-menu {
+      justify-content: center;
+       margin-top: 10px;
+   }
+
+   .mapa
+ {
+     justify-content: center;
+     width: 80%;
+     margin: 10px, 10% , 10px , 10%;
+ }
+
+ .video {
+    
+    width: 80%;
+    justify-content: center;
+     margin-left: 10%;
+    margin-right: 10%; }
+
+
+    .container {
+
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+   
+      
+    
+    .teams {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+      
+    .teamspictures{
+  
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      margin-left: 10%;
+    }
+    .fixtureconteiner {
+        border: 2px solid black;
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 768px ) {
+    .header {
+        margin-bottom: 10px;
+    }
+   
+    .bloque-menu {
+      justify-content: center;
+        margin-top: 10px;
+    }
+ 
+    .mapa
+  {
+      justify-content: center;
+      width: 80%;
+      margin: 10px, 10% , 10px , 10%;
+  }
+ 
+  .video {
+     
+     width: 80%;
+     justify-content: center;
+      margin-left: 10%;
+     margin-right: 10%; }
+ 
+ 
+     .container {
+ 
+         margin-top: 30px;
+         margin-bottom: 30px;
+     }
+  
+  
+
+    
+     
+    .teams {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+      
+    .teamspictures{
+  
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      margin-left: 10%;
+    }
+ 
+    .fixtureconteiner {
+        border: 2px solid black;
+        width: 60%;
+    }
+ }
+
+ 
+@media (max-width: 992px ) {
+    .header {
+        margin-bottom: 10px;
+    }
+   
+    .bloque-menu {
+        justify-content: center;
+        
+        margin-top: 10px;
+    }
+ 
+    .mapa
+  {
+      justify-content: center;
+      width: 80%;
+      margin: 10px, 10% , 10px , 10%;
+  }
+ 
+  .video {
+     
+     width: 80%;
+     justify-content: center;
+      margin-left: 10%;
+     margin-right: 10%; }
+ 
+ 
+     .container {
+ 
+         margin-top: 30px;
+         margin-bottom: 30px;
+     }
+  
+     
+  
+      
+    .teams-container {
+       
+        margin-top: 10px;
+
+    }
+    .teams {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+      
+    .teamspictures{
+  
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      margin-left: 10%;
+    }
+    .fixtureconteiner {
+        border: 2px solid black;
+        width: 60%;
+    }
+}
