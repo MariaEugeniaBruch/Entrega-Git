@@ -1,0 +1,51 @@
+/* Tablas fixture*/
+ 
+.fixtureconteiner {
+    border: 2px solid black;
+    width: 60%;
+    margin-left: 250px;
+    margin-right: 250px;
+    .tableconteiner {
+        display: flex;
+        justify-content: center;
+        }
+     
+}
+ 
+
+ 
+ 
+/* Fin Tablas fixture*/
+ 
+
+
+
+/*Media queries*/
+
+
+@media (max-width: 768px ) {
+  
+     
+   
+    .fixtureconteiner {
+        border: 2px solid black;
+        width: 60%;
+    }
+ }
+
+ @media (max-width: 576px ) {
+
+    .fixtureconteiner {
+        border: 2px solid black;
+        width: 60%;
+    }
+}
+
+@media (max-width: 992px ) {
+
+
+    .fixtureconteiner {
+        border: 2px solid black;
+        width: 60%;
+    }
+}
