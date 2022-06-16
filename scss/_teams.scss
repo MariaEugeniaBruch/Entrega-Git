@@ -1,14 +1,14 @@
 /* Teams*/
- 
+
 
 
 .teams {
-       font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+    @include container(200px, 50px, #336bd3, white)
+
+    
 }
+    
  
 .teamspictures {
 width:80%;
@@ -26,7 +26,6 @@ padding-right: 10%;
  
 @media (max-width: 768px ) {
   
-     
     .teams {
         font-size: 1rem;
         display: flex;
@@ -34,7 +33,7 @@ padding-right: 10%;
         padding-top: 5px;
         padding-bottom: 5px;
     }
-   
+ 
      
     .teamspictures{
  

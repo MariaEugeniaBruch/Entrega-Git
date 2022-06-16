@@ -1,18 +1,9 @@
 /* Tablas fixture*/
  
 .fixtureconteiner {
-    border: 2px solid black;
-    width: 60%;
-    margin-left: 250px;
-    margin-right: 250px;
-    .tableconteiner {
-        display: flex;
-        justify-content: center;
-        }
-     
-}
- 
 
+    @extend %fixture
+}
  
  
 /* Fin Tablas fixture*/
