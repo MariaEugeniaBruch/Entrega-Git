@@ -1,27 +1,42 @@
 @charset "UTF-8";
 /* map */
 /* extend */
-.fixtureconteiner {
-  border: 2px solid black;
+.form-control, .fixtureconteiner {
+  border: 2px solid #374C75;
   width: 60%;
   margin-left: 250px;
   margin-right: 250px; }
 
 /* mixin */
 /* Contact form*/
+.header {
+  color: #36A0FF;
+  font-size: 27px;
+  padding: 10px; }
+
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF; }
+
+/*
+
 .contact_form {
-  display: flex;
-  justify-content: center; }
-
+    display: flex;
+    justify-content: center;
+}
 .formularioh1 {
-  font-size: 3rem;
-  font-family: 'Anton', sans-serif;
-  color: black; }
-
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+ 
 /*Fin contact form*/
 /*sección carrusel */
+.carousel {
+  width: 100%; }
+
 .carousel-edit {
-  height: 480px; }
+  height: 350px; }
 
 @media only screen and (max-width: 991px) {
   .carousel-edit {

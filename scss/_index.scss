@@ -1,9 +1,11 @@
 
 /*sección carrusel */
-
+.carousel {
+    width: 100%;
+}
 .carousel-edit {
     
-    height: 480px;
+    height: 350px;
   }
  
   @media only screen and (max-width: 991px) {
